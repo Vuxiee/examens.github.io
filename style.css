@@ -1,0 +1,60 @@
+h1 {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    color: green;
+    border: 1px dashed black;
+    font-weight: bold;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.citaat {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.imp {
+    list-style-type: "! ";
+    font-weight: bold;
+}
+
+.vb {
+    font-style: bold;
+    font-size: 20px;
+    border: 3px dashed red;
+    display: table;
+    padding: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mid {
+    text-align: center;
+}
+
+ul.midList {
+    display: inline-block;
+    text-align: left;
+}
+
+.back {
+    text-align: right;
+}
+
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
